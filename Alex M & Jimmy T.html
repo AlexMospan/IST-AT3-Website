@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IST AT3 Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color: #000000;">
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar__container"> <!-- <div> tag is used to group together elements for styling and layout -->
+                <element id="navbar__logo">Alex Mospan</element> <!-- navbar__logo is the ID for the logo text 'Logbook logo', navbar__containter -->
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu"> <!-- sets class for the navigation menu -->
+                    <li class="navbar__item"> <!-- used for setting an item on the navigation bar -->
+                        <a href="index.html" class="navbar__links"> <!-- sets a class for navigation bar links and sets a reference to a document within the folder -->
+                        Home
+                        </a>
+                    </li>
+                    <li class="navbar__item"> <!-- used for setting an item on the navigation bar -->
+                        <a href="robotindex.html" class="navbar__links">
+                        Robot
+                        </a>
+                    </li>
+                    <li class="navbar__item"> <!-- used for setting an item on the navigation bar -->
+                        <a href="website.html" class="navbar__links">
+                        Website
+                        </a>
+                    </li>
+                    <li class="navbar__btn"> <!-- navbar__btn is for setting a button on the navigation bar -->
+                        <a href="robotcode.html" class="button">
+                        Robot Code
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+         <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1 style="font-size:40px;">The geniuses are:</h1>
+                    <h2 style="font-size:28px;">Alex Mospan (right)</h2>
+                    <p style="color:#ffffff;font-size:20px;">Born 20 January 2008, Alex Mospan has made many projects in the STEM field and enjoys many things related to technology and maths. He joined Wahroonga Adventist School in prep in 2013 and left in year 4 (2018) and graduated primary school in 2020. He came back to Wahronga Adventist School in 2021 for year 7. Since then, Alex has achieved many great things within the STEM field.</p>
+                    <h2 style="font-size:28px;">James (Jimmy) Thebridge (left)</h2>
+                    <p style="color:#ffffff;font-size:20px;">Born 30 Januray 2009, Jimmy Thebridge has made projects in the STEM field enjoys many things related to technology and maths. He joined Wahronga Adventist School in year 7 in 2021. Since then, Jimmy has achieved many great things within the STEM field.</p>
+                <button class="main__btn"><a href="index.html">Back</a></button>
+                </div>
+                <div class="main__image--contianer">
+                    <img src="images/Alex and Jimmy.jpg" alt="pic" id="main__img">
+                </div>
+            </div>
+         </div>
+        <script src="app.js"></script>
+    </body>
+</html> 
